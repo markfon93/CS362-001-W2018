@@ -22,13 +22,13 @@ public class CalendarMain {
 		
 		
      	/** the month the user is currently viewing **/
-     	int thisMonth;
+     	char thisMonth;
     	
     	/** the year the user is currently viewing **/
     	 int thisYear;
     	
     	/** todays date **/
-    	int thisDay;
+    	char thisDay;
     	
 		//get todays date
     	Calendar rightnow = Calendar.getInstance();
