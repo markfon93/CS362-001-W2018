@@ -67,7 +67,7 @@ public class TimeTable {
 				GregorianCalendar apptOccursOn = (GregorianCalendar) itr.next();
 
 				while (nextDay.before(apptOccursOn)) {
-					daysDifference++;
+					daysDifference+;
 					nextDay.add(nextDay.DAY_OF_MONTH, 1);
 				}
 
