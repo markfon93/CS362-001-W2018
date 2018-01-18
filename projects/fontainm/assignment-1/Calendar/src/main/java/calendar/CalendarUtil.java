@@ -41,7 +41,7 @@ public class CalendarUtil {
 	*	@param year the year
 	*	@return true if the year is a Leap Year, false otherwise
 	**/
-	public static boolean IsLeapYear(int year) {
+	public boolean IsLeapYear(int year) {
 	//if the year is a multiple of 100, the year is a leap year if its also a multiple of 400
 		if ((year % 100) == 0) {
 			

@@ -5,7 +5,7 @@
 
 package calendar;
 
-public class DateOutOfRangeException extends java.lang.Exception {
+private class DateOutOfRangeException extends java.lang.Exception {
 
     /**
      * Creates new <code>DateOutOfRangeException</code> without detail message.
