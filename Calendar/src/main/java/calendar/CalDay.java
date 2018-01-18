@@ -27,10 +27,10 @@ public class CalDay {
 	boolean valid;
 	
 	/** Stores the calendar day */
-	int day;
+	char day;
 	
 	/** Stores the calendar month */
-	int month;
+	char month;
 	
 	/** Stores the calendar year */
 	int year;
@@ -73,7 +73,7 @@ public class CalDay {
 	public void addAppt(Appt appt) {
 		if (appt.getValid()) {
 			for (int i = 0; i < getAppts().size(); i++) {
-				//Put the appointment in the correct order - finish this
+				Put the appointment in the correct order - finish this
 				if (((Appt)getAppts().get(i)).getStartHour() >
 										appt.getStartHour()) {
 					
