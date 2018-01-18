@@ -22,13 +22,13 @@ public class CalendarMain {
 		
 		
      	/** the month the user is currently viewing **/
-     	char thisMonth;
+     	int thisMonth;
     	
     	/** the year the user is currently viewing **/
     	 int thisYear;
     	
     	/** todays date **/
-    	char thisDay;
+    	int thisDay;
     	
 		//get todays date
     	Calendar rightnow = Calendar.getInstance();
@@ -40,7 +40,7 @@ public class CalendarMain {
 		 int startHour=15;
 		 int startMinute=30;
 		 int startDay=thisDay+1;  	
-		 char startMonth=thisMonth; 	
+		 int startMonth=thisMonth; 	
 		 int startYear=thisYear; 	
 		 String title="Birthday Party";
 		 String description="This is my birthday party.";
